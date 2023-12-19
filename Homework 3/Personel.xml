@@ -1,0 +1,26 @@
+<employees>
+  <employee>
+    <id>1</id>
+    <firstName>John</firstName>
+    <lastName>Doe</lastName>
+    <position>Software Engineer</position>
+    <department>Engineering</department>
+    <salary>75000</salary>
+  </employee>
+  <employee>
+    <id>2</id>
+    <firstName>Jane</firstName>
+    <lastName>Smith</lastName>
+    <position>Marketing Specialist</position>
+    <department>Marketing</department>
+    <salary>60000</salary>
+  </employee>
+  <employee>
+    <id>3</id>
+    <firstName>Michael</firstName>
+    <lastName>Johnson</lastName>
+    <position>Accountant</position>
+    <department>Finance</department>
+    <salary>65000</salary>
+  </employee>
+</employees>
