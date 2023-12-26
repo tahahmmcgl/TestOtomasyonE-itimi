@@ -2,11 +2,11 @@ package Homework_5;
 
 public class EmployeeFactory {
     public static Employee create(String name, String department, int salary, int workDays) {
+        salary=(int) CalculateFullSalary(new Employee(name, department, salary, workDays));
         System.out.println("Creating employee with name: " + name);
         System.out.println("Creating employee with department: " + department);
-        System.out.println("Creating employee with salary: " + salary);
         System.out.println("Creating employee with workDays: " + workDays);
-        salary = (int) CalculateFullSalary(new Employee(name, department, salary, workDays));
+        System.out.println("Creating employee with salary: " + salary);
         return new Employee(name, department, salary, workDays);
     }
 
